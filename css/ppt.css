@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(180, 233, 233);
+    text-align: center;
+}
+
+/*图片轮播区域样式设置*/
+.ppt-container{
+    width: 1000px;
+    height: 400px;
+    padding: 0px;
+    margin: auto;
+}
+
+/*图片样式设置*/
+.ppt-container img{
+    float: left;
+    height: 100%;
+    width: 70%;
+    vertical-align: middle;
+}
+
+/*列表元素样式设置*/
+ul{
+    list-style: none;
+    float: left;
+    height: 100%;
+    width: 20%;
+    background-color: rgba(255,255,255,0.8);
+    margin: 0;
+    padding: 0;
+}
+
+/*列表选项元素样式设置*/
+li{
+    margin-top: 25%;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-family:"微软雅黑 Light";
+    text-align: left;
+}
+li:hover{
+    color: red;
+}
+
+/*水平线样式设置*/
+hr{
+    width: 80%;}
